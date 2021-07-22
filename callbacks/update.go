@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"sort"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
+	"github.com/joelazar/gorm"
+	"github.com/joelazar/gorm/clause"
+	"github.com/joelazar/gorm/schema"
 )
 
 func SetupUpdateReflectValue(db *gorm.DB) {

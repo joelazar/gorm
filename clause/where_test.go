@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gorm.io/gorm/clause"
+	"github.com/joelazar/gorm/clause"
 )
 
 func TestWhere(t *testing.T) {

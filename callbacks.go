@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"sort"
 
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
+	"github.com/joelazar/gorm/schema"
+	"github.com/joelazar/gorm/utils"
 )
 
 func initializeCallbacks(db *DB) *callbacks {

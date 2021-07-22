@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/joelazar/gorm"
+	. "github.com/joelazar/gorm/utils/tests"
 )
 
 func TestPreparedStmt(t *testing.T) {
