@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"reflect"
 	"sort"
-	"time"
 
 	"gorm.io/gorm/schema"
 	"gorm.io/gorm/utils"
@@ -83,7 +82,7 @@ func (p *processor) Execute(db *DB) *DB {
 	}
 
 	var (
-		curTime           = time.Now()
+		curTime           = db.NowFunc()
 		stmt              = db.Statement
 		resetBuildClauses bool
 	)
